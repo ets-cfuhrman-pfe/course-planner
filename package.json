@@ -10,7 +10,6 @@
     "test": "jest --colors"
   },
   "dependencies": {
-    "@next/font": "^14.2.15",
     "@types/node": "^22.15.3",
     "@types/react": "^19.1.2",
     "@types/react-big-calendar": "^1.16.1",
