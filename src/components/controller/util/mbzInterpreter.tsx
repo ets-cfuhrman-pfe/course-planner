@@ -1,6 +1,6 @@
 import {decompressSync, Zippable, zipSync} from 'fflate';
 // @ts-ignore
-import FastXML from 'fast-xml-parser';
+import { XMLParser, XMLBuilder } from 'fast-xml-parser';
 import {ActivityEvent, EventType} from '@/components/model/interfaces/courseEvent';
 import ArchiveFile from '@/components/model/interfaces/archive/archiveFile';
 import MBZArchive from '@/components/model/interfaces/archive/MBZArchive';
@@ -214,11 +214,12 @@ function mbzToEvent(obj:any, id:string, path:string, mbzType: string): ActivityE
 
 const XML_HANDLER_OPTIONS = {
     ignoreAttributes : false,
-    attributeNamePrefix : "@_"
+    attributeNamePrefix : "@_",
+    allowBooleanAttributes: true
 };
 
-const xmlParser = new FastXML.XMLParser(XML_HANDLER_OPTIONS);
-const xmlBuilder = new FastXML.XMLBuilder(XML_HANDLER_OPTIONS);
+const xmlParser = new XMLParser(XML_HANDLER_OPTIONS);
+const xmlBuilder = new XMLBuilder(XML_HANDLER_OPTIONS);
 const encoder = new TextEncoder();
 
 function parseXMLfileToJS(file: ArchiveFile):any {
