@@ -1,0 +1,28 @@
+#Mini-test avant Séance 02
+Quiz1 Seminar1End Seminar2Start-15m
+#Mini-test avant Séance 03
+Quiz2 Seminar2End Seminar3Start-15m
+#Mini-test avant Séance 04
+Quiz3 Seminar3End Seminar4Start-15m
+#Mini-test avant Séance 05
+Quiz4 Seminar4End Seminar5Start-15m
+#Mini-test avant Séance 06
+Quiz5 Seminar5End Seminar6Start-15m
+#Mini-test pour pratiquer une RDCU
+Quiz6 Seminar5End Seminar6Start-15m
+#Examen Intra
+Quiz7 Seminar6Start Seminar6End
+#Mini-test avant Séance 07
+Quiz8 Seminar6End Seminar7Start-15m
+#Mini-test avant Séance 08
+Quiz9 Seminar7End Seminar8Start-15m
+#Mini-test avant Séance 09
+Quiz10 Seminar8End Seminar9Start-15m
+#Mini-test avant Séance 10
+Quiz11 Seminar9End Seminar10Start-15m
+#Mini-test avant Séance 11
+Quiz12 Seminar10End Seminar11Start-15m
+#Mini-test avant Séance 12
+Quiz13 Seminar11End Seminar12Start-15m
+#Mini-test avant Séance 13
+Quiz14 Seminar12End Seminar13End
