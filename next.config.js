@@ -20,4 +20,5 @@ module.exports = {
     'rc-picker',
     'rc-input',
   ],
+  turbopack: {}
 };
