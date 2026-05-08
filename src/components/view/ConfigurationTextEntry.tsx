@@ -13,7 +13,7 @@ const ConfigurationTextEntry: React.FC<TextEntryProps> = ({text }) => {
     return (
         <div>
 
-            <textarea className={UI.textInsideDSL} value={text} />
+            <textarea className={UI.textInsideDSL} defaultValue={text} />
             
         </div>
     );

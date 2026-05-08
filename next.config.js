@@ -1,5 +1,6 @@
 // next.config.js
 module.exports = {
+  allowedDevOrigins: ['192.168.1.2'],
   webpack: (config, { isServer }) => {
     if (!isServer) {
       config.resolve.fallback = {
